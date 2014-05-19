@@ -3,7 +3,7 @@ jQuery.IEcss
 
 This jQuery Plugin is helps to Update your Specific Styles for IE7, IE8, IE9 Browser and future IE browsers.
 
-<code>
+```javascript
 $(document).ready(function () {
    /* Apply Multiple CSS Properties */
    $('p').IEcss('lt:8', {
@@ -16,7 +16,7 @@ $(document).ready(function () {
    /* Get the Current CSS Property Value */
    alert($('p').IEcss('lt:8', 'backgroundColor'));
 });
-</code>
+```
 
 <h2>How it Works?</h2>
 <p>This Plugin will read the browser information from the 'navigator.userAgent' object</p>
